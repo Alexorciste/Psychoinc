@@ -1,0 +1,55 @@
+
+.tabs {
+	position: absolute;
+	top: 10%;
+	display: flex;
+	background: white ;
+	color: black: ;
+	padding: 10.5px 20px 2.5px 20px;
+	border-radius: 50px;
+	
+		
+}
+
+
+
+
+
+.tabs h3 {
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+
+}
+
+.tabs p {
+	font-weight: lighter;
+	font-size: 14px;
+	opacity: 0.8;
+	color: black;
+
+}
+
+.tabs-items {
+	
+	background: #ffffff;
+	text-align: center;
+	padding: 0px 30px 0.5px 30px;
+	
+	color: red;
+	border-right: solid 1px rgba(0, 0, 0, 0.3);
+	flex: 1 0 auto;
+	height: 80%;
+
+	
+	}
+
+
+
+.tabs-items:hover {
+	background: red;
+	color: red;
+	border-radius: 50px;
+	opacity: 0.2;
+}
+

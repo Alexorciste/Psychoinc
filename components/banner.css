@@ -1,0 +1,38 @@
+
+.banner {
+	background-color: black;
+	background-image: url("../img/index_background.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 38vh;
+	
+	width:73.3%;
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 10px;
+	
+}
+
+.banner2 {
+	background-color: black;
+	background-image: url("../img/amyti.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	height: 50vh;
+	position: relative; 
+	
+}
+
+.psycho {
+	position: absolute;
+	margin: auto;
+}

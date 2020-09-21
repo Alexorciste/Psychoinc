@@ -1,0 +1,93 @@
+/* position "navbar" et "Psycho Inc." */
+
+
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 80px;
+	
+		
+}
+
+
+/* box */
+.box {
+	background-color: white;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 60px;
+	width: auto;
+	box-shadow: 0px 0px 10px 0px white;
+	border: 0.5px solid grey;
+}
+
+/* box_item */
+.box_item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height:35px;
+	width: auto;
+	margin: auto;
+	border-right: 0.2px solid grey;
+	padding-right: 2em;
+	padding-left : 2em;
+	font-size : 11px;
+	font-family: Open sans;
+	box-shadow: 0;
+}
+
+.box_item:last-child {
+	border-right: 0px;
+}
+
+.box_item p {
+	color: black;
+}
+
+.box_item:hover {
+	border-radius: 50px;
+	border-right: 0.2px solid white;
+	height:40px;
+	box-shadow: 1px 0px 50px 1px white;
+}
+
+#fear {
+	padding-right: 10em;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+	.box_item {
+		padding-right: 4em;
+		padding-left : 4em;
+	
+	}
+}
+
+@media (max-width: 500px) {
+	.box_item {
+		height:35px;
+		width: 30px;
+		margin: auto;
+		border-right: 0.2px solid grey;
+		font-size : 8px;
+		font-family: Open sans;
+		box-shadow: 0;
+	
+	}
+}
+
+
+
+@media (min-width: 992px) {
+	.box_item {
+		padding-right: 6em;
+		padding-left : 6em;
+	}
+}

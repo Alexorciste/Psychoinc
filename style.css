@@ -1,0 +1,252 @@
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/carousel.css");
+@font-face {
+font-family: "Open sans", "Montserrat";
+}
+/* Spécifique <balise> */
+.box a {
+color: black;
+text-decoration: none;
+}
+body{
+margin: 0 auto;
+}
+h1 {
+color: white;
+border: 0.5px solid white;
+border-radius: 35px;
+padding: 20px;
+font-size : 36px;
+}
+h2 {
+color: white;
+font-size : 12px;
+font-weight: lighter;
+text-align: center;
+font-family: "Montserrat";
+}
+p{
+font-size : 32px;
+}
+.header1{
+display: flex;
+flex-direction: column;
+}
+.story{
+margin-top: 2px;
+width: 100%;
+
+}
+.story h2, h3{
+font-size: 18px;
+font-weight: bold;
+color: black;
+
+}
+.story p{
+font-size: 10px;
+
+}
+#maincustomerbox{
+display: flex;
+
+width: 100%;
+}
+#mainbox{
+display:flex;
+justify-content: start;
+width: 73.3%;
+margin: auto;
+}
+#mainbox p{
+font-family: Open sans;
+}
+#mainbox h2, h3{
+color: black;
+}
+/* avis client1 */
+.stars {
+position: absolute;
+top: 35px;
+left: 5px;
+color: yellow;
+text-shadow: 0 0 3px #000;
+}
+#customerbox{
+display:flex;
+justify-content: start;
+height: auto;
+width: 120%;
+}
+.customcard1{
+border-radius: 20px;
+margin-bottom: 5px;
+width: 100%;
+height: auto;
+box-shadow: 1px 0px 10px 0px grey;
+}
+.cust1{
+background:linear-gradient(135deg,
+rgba(0, 0, 0, 0.8) 0%,
+rgba(0, 0, 0, 0.2) 50%), url("img/pam.jpg");
+height: 370px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+position: relative;
+}
+.customerfoot1{
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 100%;
+height: 100px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cust1 p {
+font-size : 28px;
+font-weight: bold;
+color: white;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.customerfoot1 h3 {
+font-size : 28px;
+color: black;
+font-family: Open sans;
+}
+/* boite avis client 2 3 et 4 */
+#customerbox2{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+height: auto;
+width: 100%;
+margin-left: 5px;
+
+}
+/* avis client 2 */
+.customcard2{
+border-radius: 20px;
+margin-bottom: 5px;
+width: 49%;
+height: auto;
+box-shadow: 1px 0px 10px 0px grey;
+}
+.cust2{
+background-image:url("img/zeus.jpg");
+height: 185px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+position: relative;
+}
+.customerfoot2{
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 100%;
+height: 50px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cust2 p {
+font-size : 16px;
+font-weight: bold;
+color: white;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.customerfoot2 h3 {
+font-size : 26px;
+color: black;
+font-family: Open sans;
+}
+/* avis client 3 */
+.customcard3{
+border-radius: 20px;
+margin-bottom: 5px;
+width: 49%;
+height: auto;
+box-shadow: 1px 0px 10px 0px grey;
+}
+.cust3{
+background:linear-gradient(135deg,
+rgba(0, 0, 0, 0.8) 0%,
+rgba(0, 0, 0, 0.3) 50%), url("img/jh.jpg");
+height: 185px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+position: relative;
+}
+.customerfoot3{
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 100%;
+height: 50px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cust3 p {
+font-size : 16px;
+font-weight: bold;
+color: white;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.customerfoot3 h3 {
+font-size : 26px;
+color: black;
+font-family: Open sans;
+}
+
+/* avis client 4 */
+.customcard4{
+border-radius: 20px;
+margin-bottom: 5px;
+width: 100%;
+height: auto;
+box-shadow: 1px 0px 10px 0px grey;
+}
+.cust4{
+background:linear-gradient(135deg,
+rgba(0, 0, 0, 0.8) 0%,
+rgba(0, 0, 0, 0.3) 50%), url("img/trex.jpg");
+height: 185px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+position: relative;
+}
+.customerfoot4{
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 100%;
+height: 50px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cust4 p {
+font-size : 16px;
+font-weight: bold;
+color: white;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.customerfoot4 h3 {
+font-size : 26px;
+color: black;
+font-family: Open sans;
+}
