@@ -1,0 +1,308 @@
+﻿@font-face {
+  font-family: Open sans;
+  font-family: 'Creepster', cursive;
+}
+
+/* Spécifique <balise> */
+.box a {
+	color: green;
+	text-decoration: none;
+text-shadow: 0 0 1px yellow;
+}
+
+body{
+margin: 0 auto;
+}
+
+.banner2 {
+	background-color: black;
+	background-image: url("img/house2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+display: flex;
+flex-direction: column;
+justify-content: start;
+	
+
+	
+}
+
+
+
+.banner h1 {
+
+}
+
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	
+	
+	
+}
+
+
+
+.bigmenu{
+
+}
+
+.intro-text h2{
+color: white;
+font-size: 48px;
+
+
+}
+
+
+.intro-text-box{
+width: 60%;
+margin: auto;
+
+
+}
+
+
+
+.intro-text{
+color: white;
+font-family: Creepster;
+margin-top: 100px;
+width: 350px;
+text-shadow: 0 0 30px yellow;
+
+
+}
+
+
+/* box */
+.box {
+	background-color: white;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 60px;
+	
+	width: auto;
+	box-shadow: 1px 0px 40px 1px yellow;
+
+}
+
+/* box_item */
+.box_item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height:35px;
+	width: auto;
+	margin: auto;
+	border-right: 0.2px solid green;
+	padding-right: 2em;
+	padding-left : 2em;
+	font-size : 11px;
+	font-family: Helvetica;
+	box-shadow: 0;
+font-family: Creepster;
+color: green;
+}
+
+.box_item:last-child {
+	border-right: 0px;
+}
+
+.box_item p {
+	color: black;
+}
+
+.box_item:hover {
+	border-radius: 50px;
+	border-right: 0.2px solid white;
+	height:40px;
+	box-shadow: 1px 0px 50px 1px white;
+}
+
+#fear {
+	padding-right: 10em;
+}
+
+/* btn */
+
+.btn2 {
+	width: 44px;
+	height: 44px;
+	border-radius: 50px;
+	background-color: green;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: -2.1em;
+	margin-top: 0.104em;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	opacity: 0.8;
+}
+
+
+
+
+.btn2:hover {
+	opacity: 1;
+	box-shadow: 1px 0px 20px 1px yellow;
+}
+
+
+.btn3 {
+	width: 44px;
+	height: 44px;
+	border-radius: 50px;
+
+	text-shadow: 0 0 3px yellow;
+	color: yellow;
+	text-decoration: none;
+	font-size: 30px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+opacity: 0.9;
+
+	
+}
+
+
+
+
+
+.menu{
+width: 60%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.list{
+list-style-type: none;
+display: flex;
+padding-left: 0;
+padding-top: 30px;
+
+width: 30%;
+justify-content: space-between;
+
+
+}
+
+.list li a{
+color: white;
+font-family: Creepster; 
+text-shadow: 0 0 10px purple;
+
+}
+
+.dropdown-item {
+font-family: Creepster;
+color: green;
+text-shadow: 0 0 20px yellow;
+background-color: black;
+}
+
+
+
+.infocovid {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(248 248 248);
+height: 40px;
+width: 100%
+
+
+
+}
+
+.infocovid a {
+text-decoration: none;
+color: black;
+font-family: Open sans;
+font-size: 12px;
+
+}
+
+.logo {
+
+display: flex;
+align-items: center;
+color: yellow;
+font-size: 36px;
+text-shadow: 0 0 3px yellow;
+
+
+
+}
+
+#logotext {
+display: flex;
+justify-content: start;
+align-items: center;
+
+text-shadow: 0 0 3px yellow;
+
+}
+
+
+
+	
+}
+
+/* Banner */
+
+* page fearbnb */
+
+.card4 {
+width:50%;
+border: 1px solid black;
+background-image: url("img/overlook.png");
+background-size: cover;
+margin: 10px 10px 10px 0;
+border: 0.5px solid white;
+border-radius: 10px;
+box-shadow: 1px 0px 10px 0px grey;
+}
+
+.card5 {
+width:50%;
+border: 1px solid black;
+background-image: url("img/bm.jpg");
+background-size: cover;
+margin: 10px 0px 10px 10px;
+border: 0.5px solid white;
+border-radius: 10px;
+box-shadow: 1px 0px 10px 0px grey;
+}
+
+
+
+/* Media queries */
+
+@media (min-width: 768px) {
+	.box_item {
+		padding-right: 4em;
+		padding-left : 4em;
+	
+	}
+}
+
+@media (min-width: 992px) {
+	.box_item {
+		padding-right: 6em;
+		padding-left : 6em;
+	}
+}
