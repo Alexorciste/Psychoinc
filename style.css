@@ -4,6 +4,7 @@
 @import url("components/navbar.css");
 @import url("components/avatar.css");
 @import url("components/carousel.css");
+@import url("components/query.css");
 @font-face {
 font-family: "Open sans", "Montserrat";
 }
@@ -80,7 +81,7 @@ text-shadow: 0 0 3px #000;
 display:flex;
 justify-content: start;
 height: auto;
-width: 120%;
+width: 85%;
 }
 .customcard1{
 border-radius: 20px;
@@ -92,7 +93,9 @@ box-shadow: 1px 0px 10px 0px grey;
 .cust1{
 background:linear-gradient(135deg,
 rgba(0, 0, 0, 0.8) 0%,
-rgba(0, 0, 0, 0.2) 50%), url("img/pam.jpg");
+rgba(0, 0, 0, 0.2) 50%), url("img/pam2.jpg");
+background-repeat: no-repeat;
+
 height: 370px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
@@ -141,6 +144,7 @@ box-shadow: 1px 0px 10px 0px grey;
 }
 .cust2{
 background-image:url("img/zeus.jpg");
+background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
@@ -161,8 +165,8 @@ font-size : 16px;
 font-weight: bold;
 color: white;
 position: absolute;
-top: 5px;
-left: 5px;
+top: 7px;
+left: 10px;
 }
 .customerfoot2 h3 {
 font-size : 26px;
@@ -181,6 +185,7 @@ box-shadow: 1px 0px 10px 0px grey;
 background:linear-gradient(135deg,
 rgba(0, 0, 0, 0.8) 0%,
 rgba(0, 0, 0, 0.3) 50%), url("img/jh.jpg");
+background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
@@ -202,7 +207,7 @@ font-weight: bold;
 color: white;
 position: absolute;
 top: 5px;
-left: 5px;
+left: 10px;
 }
 .customerfoot3 h3 {
 font-size : 26px;
@@ -219,9 +224,8 @@ height: auto;
 box-shadow: 1px 0px 10px 0px grey;
 }
 .cust4{
-background:linear-gradient(135deg,
-rgba(0, 0, 0, 0.8) 0%,
-rgba(0, 0, 0, 0.3) 50%), url("img/trex.jpg");
+background-image: url("img/trex.jpg");
+background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
