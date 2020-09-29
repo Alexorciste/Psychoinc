@@ -14,6 +14,62 @@ body{
 margin: 0 auto;
 }
 
+
+#sidenavHebergement{
+	left:0px;
+	top: 50px;
+	position: absolute;
+	z-index: 1;
+	background-color: black;
+	border-radius: 20px;
+	width: 0%;
+	height: 94vh;
+	opacity: 0.8;
+	
+
+}
+
+#sidenavRestauration{
+	right:0px;
+	top: 50px;
+	position: absolute;
+	z-index: 1;
+	background-color: black;
+	border-radius: 20px;
+	width: 0%;
+	height: 94vh;
+	opacity: 0.8;
+	
+
+}
+
+.closex {
+	width: 98%;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.closex:hover {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.closex2 {
+	width: 98%;
+	text-decoration: none;
+	color: white;
+	padding-left: 15px;
+}
+
+.closex2:hover {
+	text-decoration: none;
+	color: white;
+	
+}
+
 .banner2 {
 	background-color: black;
 	background-image: url("img/house2.jpg");
