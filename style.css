@@ -4,6 +4,7 @@
 @import url("components/navbar.css");
 @import url("components/avatar.css");
 @import url("components/carousel.css");
+@import url("components/badge.css");
 @import url("components/query.css");
 @font-face {
 font-family: "Open sans", "Montserrat";
@@ -64,11 +65,18 @@ display: flex;
 
 width: 100%;
 }
+
+#background-mainbox{
+	background-color: #E5E7EC;
+	padding-top: 3px;
+}
+
 #mainbox{
 display:flex;
 justify-content: start;
 width: 73.3%;
 margin: auto;
+
 }
 #mainbox p{
 font-family: Open sans;
@@ -150,7 +158,9 @@ height: auto;
 box-shadow: 1px 0px 10px 0px grey;
 }
 .cust2{
-background-image:url("img/zeus.jpg");
+background :linear-gradient(135deg,
+rgba(0, 0, 0, 0.8) 0%,
+rgba(0, 0, 0, 0.2) 50%), url("img/zeus.jpg");
 background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
@@ -191,7 +201,7 @@ box-shadow: 1px 0px 10px 0px grey;
 .cust3{
 background:linear-gradient(135deg,
 rgba(0, 0, 0, 0.8) 0%,
-rgba(0, 0, 0, 0.3) 50%), url("img/jh.jpg");
+rgba(0, 0, 0, 0.2) 50%), url("img/jh.jpg");
 background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
@@ -231,7 +241,9 @@ height: auto;
 box-shadow: 1px 0px 10px 0px grey;
 }
 .cust4{
-background-image: url("img/trex.jpg");
+background:linear-gradient(135deg,
+rgba(0, 0, 0, 0.8) 0%,
+rgba(0, 0, 0, 0.2) 50%),url("img/trex.jpg");
 background-size: cover;
 height: 185px;
 border-top-right-radius: 20px;
@@ -260,4 +272,36 @@ left: 5px;
 font-size : 26px;
 color: black;
 font-family: Open sans;
+}
+
+
+#footer {
+  background-color: #B8B9B7;
+  color: white;
+  
+width: 100%;
+
+margin: auto;
+text-align: center;
+box-shadow: 2px 3px 6px grey ;
+
+}
+
+.list-inline{
+	display: flex;
+	justify-content: center;
+
+}
+
+.list-inline li{
+	padding: 10px;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+  
+}
+#footer a:hover {
+  color: white;
 }
